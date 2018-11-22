@@ -7,7 +7,7 @@ package ejemplopolimorfismo;
 
 /**
  *
- * @author reroes
+ * @author David
  */
 public class Masajista extends PersonaEquipo {
 
@@ -30,10 +30,10 @@ public class Masajista extends PersonaEquipo {
     @Override
     public void entrenamiento(){
         //editado
-        System.out.printf("%d %s %s Da asistencia en el entrenamiento (Clase Masajista). Su título es %s\n", super.getId(),super.getNombre(),super.getApellidos(),getTitulacion());
+        System.out.printf("%d %s %s, da asistencia en el entrenamiento (Clase Masajista). Su título es %s\n", super.getId(),super.getNombre(),super.getApellidos(),getTitulacion());
     }
 
-    public void darMasaje() {
+   /* public void darMasaje() {
         System.out.println("Da un Masaje");
-    }
+    }*/
 }

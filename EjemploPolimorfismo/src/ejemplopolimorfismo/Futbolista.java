@@ -7,7 +7,7 @@ package ejemplopolimorfismo;
 
 /**
  *
- * @author reroes
+ * @author David
  */
 public class Futbolista extends PersonaEquipo {
 
@@ -41,7 +41,7 @@ public class Futbolista extends PersonaEquipo {
    @Override
    public void entrenamiento() {
        //editado
-      System.out.printf("%d %s %s Realiza un entrenamiento (Clase Futbolista). Su número es %d\n", super.getId(),super.getNombre(),super.getApellidos(), getDorsal());
+      System.out.printf("%d %s %s, realiza un entrenamiento (Clase Futbolista). Su número o dorsal es %d\n", super.getId(),super.getNombre(),super.getApellidos(), getDorsal());
    }
 
    
